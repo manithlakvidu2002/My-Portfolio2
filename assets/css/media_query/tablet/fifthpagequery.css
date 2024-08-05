@@ -1,0 +1,33 @@
+@media all and (min-width: 426px) and (max-width: 769px){
+    .hamburgerbtn{
+        display: block !important;
+    }
+    
+    .workspagetitle>h1:nth-child(1) {
+        font-size: 75px;
+    }
+
+    .workspagetitle>h1:nth-child(2){
+        font-size: 47px;
+    }
+
+    .projectsdetailscontainer {
+        width: 90%;
+    }
+
+    .clientreviewcontainer {
+        width: 90%;
+    }
+
+    .clientreviewcontainer>div {
+        margin-top: 2rem;
+        height: auto;
+        width: calc(90% / 2);
+    }
+
+    .clientdetails {
+        width: 80%;
+        padding-bottom: 5rem;
+        height: auto;
+    }
+}

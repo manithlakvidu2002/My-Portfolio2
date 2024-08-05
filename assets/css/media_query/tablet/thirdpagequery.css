@@ -1,0 +1,18 @@
+@media all and (min-width: 426px) and (max-width: 769px){
+    .hamburgerbtn{
+        display: block !important;
+    }
+    
+    .servicepagetitle>h1:nth-child(1) {
+        font-size: 58px;
+    }
+
+    .servicepagetitle>h1:nth-child(2){
+        font-size: 40px;
+    }
+
+    .servicescontainer {
+        grid-template-columns: auto auto;
+        width: 90%;
+    }
+}

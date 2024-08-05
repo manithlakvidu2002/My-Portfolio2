@@ -1,0 +1,53 @@
+@media all and (min-width: 769px) and (max-width: 1025px){
+    .secondpage {
+        height: 120vh;
+    }
+
+    .aboutpagetitle>h1:nth-child(1) {
+        font-size: 100px;
+    }
+
+    .aboutpagetitle>h1:nth-child(2) {
+        font-size: 50px;
+    }
+
+    .explaineaboutme>div:nth-child(1)>img {
+        width: 85%;
+    }
+
+    .explaineaboutmebody {
+        width: 74%;
+    }
+
+    .explaintitle {
+        font-size: 21px;
+    }
+
+    .explaininfo>h1 {
+        font-size: 13px;
+    }
+
+    .personalinfocontainer {
+        width: 86%;
+    }
+
+    .personalinfofirstinnercontainer {
+        width: 45%;
+    }
+
+    .infotitle {
+        font-size: 21px;
+    }
+
+    .personalinfosecondinnercontainer {
+        width: 53%;
+    }
+
+    .card {
+        width: auto;
+    }
+
+    .Personalinfobody>div>h1 {
+        font-size: 13px;
+    }
+}

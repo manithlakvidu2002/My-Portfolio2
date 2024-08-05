@@ -1,0 +1,29 @@
+@media all and (min-width: 426px) and (max-width: 769px){
+    .hamburgerbtn{
+        display: block !important;
+    }
+    
+    .contactpagetitle>h1:nth-child(1) {
+        font-size: 90px;
+    }
+
+    .contactpagetitle>h1:nth-child(2){
+        font-size: 47px;
+    }
+
+    .contactdetailscontainer {
+        width: 90%;
+    }
+
+    .inputfieldcontainer {
+        height: auto;
+    }
+
+    .inputfieldcontainer>input {
+        width: calc(90% / 2);
+    }
+
+    .inputfieldcontainer>input:nth-child(3) {
+        margin-top: 1rem;
+    }
+}

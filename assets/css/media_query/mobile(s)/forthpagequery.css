@@ -1,0 +1,81 @@
+@media all and (min-width: 1px) and (max-width: 426px){
+    .hamburgerbtn{
+        display: block !important;
+    }
+
+    .experiencepagetitle>h1:nth-child(1) {
+        font-size: 35px;
+    }
+
+    .experiencepagetitle>h1:nth-child(2){
+        font-size: 21px;
+    }
+
+    .educationdetailcontainer {
+        position: relative;
+        height: 110vh;
+    }
+
+    .educationdetailcontainer>div {
+        position: relative;
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .educationdetailleftside, .educationdetailrightside {
+        position: relative;
+        width: 100%;
+        height: calc(100% / 4);
+    }
+
+    .educationdetailsleftsideinnercontainer {
+        position: absolute;
+        right: 0%;
+    }
+
+    .educationdetails {
+        position: relative;
+    }
+
+    .educationdetailtitle>h1 {
+        font-size: 11px;
+    }
+
+    .educationdetailtitle>h1:nth-child(3) {
+        font-size: 9px;
+    }
+
+    .educationdetaispharagraph>h1 {
+        font-family: 'Sora', sans-serif;
+        font-size: 7px;
+    }
+
+    .educationdetailsimage {
+        width: 35px;
+        height: 35px;
+        left: 4%;
+    }
+
+    .learntoolcontainer {
+        top: 24%;
+    }
+
+    .learntoolinnercontainer>div {
+        height: fit-content;
+        flex-direction: column;
+    }
+
+    .learntoolinnercontainer>div>div {
+        position: relative;
+        left: 0%;
+        right: 0%;
+        margin: auto;
+        width: 55px;
+        height: 55px;
+        margin-bottom: 3rem;
+    }
+
+    .learntoolinnercontainer>div>div>img {
+        width: 25px;
+    }
+}

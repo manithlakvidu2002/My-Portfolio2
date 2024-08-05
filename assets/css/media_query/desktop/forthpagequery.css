@@ -1,0 +1,10 @@
+@media all and (min-width: 769px) and (max-width: 1025px){
+    .learntoolinnercontainer>div>div {
+        width: 60px;
+        height: 60px;
+    }
+
+    .learntoolinnercontainer>div>div>img {
+        width: 30px;
+    }
+}

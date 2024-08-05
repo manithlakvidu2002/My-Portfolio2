@@ -1,0 +1,38 @@
+@media all and (min-width: 426px) and (max-width: 769px){
+    .hamburgerbtn{
+        display: block !important;
+    }
+    
+    .experiencepagetitle>h1:nth-child(1) {
+        font-size: 90px;
+    }
+
+    .experiencepagetitle>h1:nth-child(2){
+        font-size: 47px;
+    }
+
+    .educationdetailsimage {
+        left: 4%;
+    }
+
+    .educationdetailtitle>h1 {
+        font-size: 13px;
+    }
+
+    .educationdetailtitle>h1:nth-child(3) {
+        font-size: 12px;
+    }
+
+    .educationdetaispharagraph>h1 {
+        font-size: 9px;
+    }
+
+    .learntoolinnercontainer>div>div {
+        width: 49px;
+        height: 49px;
+    }
+
+    .learntoolinnercontainer>div>div>img {
+        width: 20px;
+    }
+}

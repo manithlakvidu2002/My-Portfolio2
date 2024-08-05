@@ -1,0 +1,47 @@
+@media all and (min-width: 426px) and (max-width: 769px){
+    .hamburgerbtn{
+        display: block !important;
+    }
+    
+    .aboutpagetitle>h1:nth-child(1) {
+        font-size: 100px;
+    }
+
+    .aboutpagetitle>h1:nth-child(2) {
+        font-size: 50px;
+    }
+
+    .explaineaboutme>div:nth-child(1)>img {
+        width: 85%;
+    }
+
+    .explaineaboutmebody {
+        width: 74%;
+    }
+
+    .explaintitle {
+        font-size: 21px;
+    }
+
+    .explaininfo>h1 {
+        font-size: 13px;
+    }
+
+    .personalinfocontainer {
+        width: 80%;
+    }
+
+    .personalinfofirstinnercontainer {
+        width: 95%;
+    }
+
+    .infotitle {
+        font-size: 21px;
+    }
+
+    .personalinfosecondinnercontainer {
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+        width: 90%;
+    }
+}

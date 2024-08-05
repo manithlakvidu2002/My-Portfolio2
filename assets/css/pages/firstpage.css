@@ -1,0 +1,292 @@
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+    overflow-x: hidden;
+}
+
+main>section{
+  position: relative;
+    /*background-color: black;*/
+	height: 100vh;
+	width: 100vw;
+}
+
+.leftdiv{
+    position: relative;
+    height: 100%;
+}
+
+.manithphoto{
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 3%;
+    margin: auto;
+    height: fit-content;
+}
+
+.manithphoto>img{
+    height: 670px;
+}
+
+.details>div:nth-child(1)>h1{
+    text-transform: uppercase;
+    font-size: 51px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.details>div:nth-child(1)>h1:nth-child(1){
+    color: #72b626;
+}
+
+.details>div:nth-child(1)>h1:nth-child(2){
+    color: #666;
+}
+
+.details>div:nth-child(2)>p{
+    color: #666;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.details{
+    background-color: rsed;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    margin: auto;
+    left: 43%;
+    width: 620px;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.details>div:nth-child(2){
+    position: relative;
+    width: 600px;
+    height: 100px;
+    background-color: bdlue;
+    text-align: left;
+}
+
+.details>div:nth-child(2)>p{
+    line-height: 35px;
+}
+
+.details>div:nth-child(1){
+    background-color: bdlack;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: end;
+    width: 650px;
+    height: 130px;
+}
+
+.details>div:nth-child(1)>h1{
+    height: 50px;
+    width: fit-content;
+    background-color: aqufamarine;
+}
+
+.details>div:nth-child(1)>h1:nth-child(2){
+    width: 575px;
+}
+
+/*-------------------------------------*/
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.cta {
+  position: relative;
+  margin: auto;
+  padding: 19px 22px;
+  transition: all 0.2s ease;
+  height: fit-content;
+  border: 1px solid #72b626;/* Black border */
+  border-radius: 28px; /* Border radius */
+  font-family: "Poppins", sans-serif;
+  color: #666;
+  text-decoration: none;
+  display: flex;
+  align-content: space-between;
+}
+
+.cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 28px;
+  background: #72b626; /* Converted $primary to rgba value */
+  width: 56px;
+  height: 56px;
+  transition: all 0.3s ease;
+}
+
+.cta span {
+  position: relative;
+  font-size: 15px;
+  line-height: 1.2;
+  font-weight: 600;
+  /*letter-spacing: 0.25em;*/
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.cta svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #111;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+  display: flex;
+  align-self: center;
+}
+
+.cta:hover:before {
+  width: 100%;
+  background: #72b626; /* Converted $primary to rgba
+  value */
+  /*color : #666;*/
+}
+
+.cta:hover span {
+  color: #fff; /* Change font color on hover */
+}
+
+.cta:hover svg {
+  transform: translateX(0);
+}
+
+.cta:active {
+  transform: scale(0.96);
+  color:white;
+}
+
+/*-------------------------------------*/
+
+/*-------------------------------------*/
+.wrapper{
+  position: fixed;
+  width: 5vw;
+  height: fit-content;
+  float: right;
+  background-color: resd;
+  top: 0%;
+  bottom: 0%;
+  right: 1%;
+  margin: auto;
+  z-index: 101;
+}
+
+.wrapper .button {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  float: right; /* Float the buttons to the right */
+  margin: 0 5px;
+  margin-top: 15px;
+  overflow: hidden;
+  background: #eee;
+  border-radius: 65px;
+  cursor: pointer;
+  /*box-shadow: 0px 10px 10px rgba(0,0,0,0.1);*/
+  transition: all 0.3s ease-out;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrapper .button:hover {
+  width: 150px;
+  float: right; /* Maintain the button position to the right */
+  background-color: #72b626;
+}
+
+.wrapper .button .icon {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1):hover .icon{
+  background: #72b626;
+}
+
+.wrapper .button:nth-child(2):hover .icon{
+  background: #72b626;
+}
+
+.wrapper .button:nth-child(3):hover .icon{
+  background: #72b626;
+}
+
+.wrapper .button:nth-child(4):hover .icon{
+  background: #72b626;
+}
+
+.wrapper .button:nth-child(5):hover .icon{
+  background: #72b626;
+}
+
+.wrapper .button .icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper .button .icon i{
+  font-size: 25px;
+  /*line-height: 60px;*/
+  transition: all 0.3s ease-out;
+  color: #666;
+  height: fit-content;
+  background-color: refd;
+  position: relative;
+  bottom: 5px;
+}
+
+.wrapper .button:hover .icon i{
+  color: white;
+}
+
+.wrapper .button span {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  line-height: normal;
+  margin-right: 3px; /* Adjust margin to the right */
+  transition: all 0.3s ease-out;
+  position: relative;
+  top: 15px;
+}
+
+.wrapper .button:hover span {
+  margin-right: 10px; /* Adjust margin to the right when hovered */
+}
+
+.wrapper .button:nth-child(1) span{
+  color: white;
+}

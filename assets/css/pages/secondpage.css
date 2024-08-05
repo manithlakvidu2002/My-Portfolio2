@@ -1,0 +1,322 @@
+.secondpage{
+    position: relative;
+    width: 100vw;
+    height: 150vh;
+    background-color: resd;
+  }
+  
+  .aboutpagetitle{
+    width: fit-content;
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    right: 0%;
+    margin: auto;
+    text-transform: uppercase;
+  }
+  
+  .aboutpagetitle>h1{
+    line-height: 0%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 51px;
+  }
+  
+  .aboutpagetitle>h1:nth-child(1){
+    letter-spacing: 10px;
+    font-weight: 800;
+    font-size: 110px;
+    color: rgba(30, 37, 48, 0.07);
+  }
+  
+  .aboutpagetitle>h1:nth-child(2){
+    font-weight: 900 !important;
+    font-size: 56px;
+    color: #666 !important;
+    position: absolute;
+    left: 20%;
+    right: 5%;
+    top: 5%;
+    margin: auto;
+  }
+  
+  .aboutpagetitle>h1:nth-child(2)>span{
+    color: #72b626;
+  }
+  
+  .Personalinfobody{
+    background-color: resd;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .Personalinfobody>div>h1{
+    font-weight: 500 !important;
+    font-family: 'Sora', sans-serif;
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #666;
+  }
+  
+  .Personalinfobody>div>h1:nth-child(1){
+    margin-top: 30px;
+  }
+  
+  .Personalinfobody>div>h1>span{
+    font-weight: 700 !important;
+    color: #515050;
+  }
+  
+  .infotitle{
+    font-family: "Poppins", sans-serif;
+    font-size: 26px;
+    color: #666 !important;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+  }
+  
+  .personalinfocontainer{
+    width: 80%;
+    height: fit-content;
+    position: relative;
+    left: 0%;
+    right: 0%;
+    top: 20%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .personalinfofirstinnercontainer{
+    width: 45%;
+  }
+  
+  .personalinfosecondinnercontainer{
+    width: 50%;
+  }
+  
+  /*-------------------Dawnload CV Button-------------------*/
+  
+  .cvdawnload {
+    width: 200px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .cvdawnload > .cta {
+    position: relative;
+    margin: auto;
+    padding: 19px 22px;
+    transition: all 0.2s ease;
+    height: fit-content;
+    border: 1px solid #72b626; /* Black border */
+    border-radius: 28px; /* Border radius */
+    font-family: "Poppins", sans-serif;
+    color: #666;
+    text-decoration: none;
+    display: flex;
+    align-items: center; /* Align items to center */
+    justify-content: space-between; /* Distribute space between items */
+  }
+  
+  .cvdawnload > .cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0; /* Position on the right */
+    display: block;
+    border-radius: 28px;
+    background: #72b626; /* Primary color */
+    width: 56px;
+    height: 56px;
+    transition: all 0.3s ease;
+  }
+  
+  .cvdawnload > .cta span {
+    position: relative;
+    font-size: 15px;
+    line-height: 1.2;
+    font-weight: 600;
+    text-transform: uppercase;
+    vertical-align: middle;
+  }
+  
+  .cvdawnload > .cta svg {
+    position: relative;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #111;
+    stroke-width: 2;
+    transition: all 0.3s ease;
+    display: flex;
+  }
+  
+  .cvdawnload > .cta:hover:before {
+    width: 100%;
+    right: 0; /* Expand from right to left */
+    background: #72b626; /* Primary color */
+  }
+  
+  .cvdawnload > .cta:hover span {
+    color: #fff; /* Change font color on hover */
+  }
+  
+  .cvdawnload > .cta:hover svg {
+    transform: translateX(0);
+  }
+  
+  .cvdawnload > .cta:active {
+    transform: scale(0.96);
+    color: white;
+  }
+  
+  /*---------------------------------*/
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .card {
+    width: 250px;
+    height: 150px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .cardicon {
+    width: 40px;
+    height: 40px;
+    background-color: #72b626;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 10px;
+  }
+  
+  .cardicon img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .cardtitle {
+    font-family: 'Sora', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .cardpharagraph {
+    font-family: 'Sora', sans-serif;
+    font-size: 12px;
+    color: #666;
+  }
+  
+  /*--------------------------------*/
+  
+  .explaineaboutme{
+    position: relative;
+    height: 40%;
+    width: 80%;
+    top: 15%;
+    left: 0%;
+    right: 0%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .explaineaboutme>div:nth-child(1)>img{
+    width: 350px;
+    position: relative;
+    bottom: 18%;
+  }
+  
+  .explaineaboutmebody{
+    position: relative;
+    width: 60%;
+    background-color: white;
+    height: 300px;
+    top: 0%;
+    bottom: 0%;
+    margin: auto;
+  }
+  
+  .explaintitle{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    color: #666;
+  }
+  
+  .explaininfo{
+    margin-top: 40px;
+    height: 150px;
+  }
+  
+  .explaininfo>h1{
+    font-family: 'Sora', sans-serif;
+    font-size: 18px;
+    position: relative;
+    color: #868686;
+  }
+  
+  .explaininfo>h1:nth-child(2){
+    top: 8%;
+  }
+  
+  .explaineaboutmebuttoncontainer{
+    position: relative;
+    top: 7%;
+  }
+  
+  .explaineaboutmebuttoncontainer>button{
+    width: 90px;
+    height: 33px;
+    border-radius: 5px;
+    font-family: 'Sora', sans-serif;
+    font-size: 14px;
+  }
+  
+  .explaineaboutmebuttoncontainer>button:nth-child(1){
+    color: #72b626;
+    border: 2px solid #72b626;
+  }
+  
+  .explaineaboutmebuttoncontainer>button:nth-child(2){
+    color: #666;
+    border: 2px solid #666;
+    margin-left: 5px;
+  }
+  
+  .explaineaboutmebuttoncontainer>button:nth-child(1):hover{
+    background-color: #72b626;
+    color: white;
+  }
+  
+  .explaineaboutmebuttoncontainer>button:nth-child(2):hover{
+    background-color: #666;
+    color: white;
+  }
+  

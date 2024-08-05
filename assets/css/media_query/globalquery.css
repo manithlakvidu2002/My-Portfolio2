@@ -1,0 +1,94 @@
+.minimizebtncontainer{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100vw;
+    height: 100%;
+    display: none;
+    overflow-x: hidden;
+}
+
+.hamburgerbtn,.closebtn{
+    width: 50px;
+    height: 50px;
+    border-radius: 7px;
+    border: 0px;
+    background-color: #eee;
+    font-size: 25px;
+    font-weight: 200;
+    color: #666;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    margin-top: 10px;
+    margin-right: 15px;
+    z-index: 110;
+    cursor: pointer;
+}
+
+.minimizebtninnercontainer{
+    background-color: white;
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    z-index: 110;
+    transition: width 0.5s;
+}
+
+.closebtn{
+    z-index: 111;
+}
+
+.minimizebtnset{
+    position: relative;
+    width: 95%;
+    height: 50%;
+    margin-left: 20px;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.minimizebtnset>div{
+    position: relative;
+    width: 98%;
+    height: calc(100%/6);
+    border-bottom: 1px solid #66666651;
+}
+
+.minimizebtnset>div>button{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    border: none;
+    background-color: transparent;
+}
+
+.minimizebtnset>div>button>span{
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    line-height: normal;
+    margin-left: 10px;
+    color: #666;
+    opacity: 100%;
+    transition: opacity 0.5s;
+}
+
+.minimizebtnset>div>button>i{
+    position: relative;
+    font-size: 25px;
+    transition: all 0.3s ease-out;
+    color: #666;
+    height: fit-content;
+    width: 35px;
+    opacity: 100%;
+    transition: opacity 0.5s;
+}
+
+.minimizebtnset > div > button:hover i,.minimizebtnset > div > button:hover span{
+    color: #72b626;
+}

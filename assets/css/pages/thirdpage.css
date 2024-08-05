@@ -1,0 +1,106 @@
+.thirdpage{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.servicepagetitle{
+    width: fit-content;
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    right: 0%;
+    margin: auto;
+    text-transform: uppercase;
+}
+
+.servicepagetitle>h1{
+    line-height: 0%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 51px;
+  }
+  
+  .servicepagetitle>h1:nth-child(1){
+    letter-spacing: 10px;
+    font-weight: 800;
+    font-size: 110px;
+    color: rgba(30, 37, 48, 0.07);
+  }
+  
+  .servicepagetitle>h1:nth-child(2){
+    font-weight: 900 !important;
+    font-size: 56px;
+    color: #666 !important;
+    position: absolute;
+    left: 20%;
+    right: 5%;
+    top: 5%;
+    margin: auto;
+  }
+  
+  .servicepagetitle>h1:nth-child(2)>span{
+    color: #72b626;
+  }
+
+  /*Service Container Style*/
+
+  .servicescontainer{
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    padding: 10px;
+    top: 25%;
+    width: 1000px;
+    left: 0%;
+    right: 0%;
+    margin: auto;
+  }
+
+  .servicescontainer>div{
+    height: 250px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid #66666646;
+    transition: transform 0.3s ease;
+  }
+
+  .servicescontainer>div>div{
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+  }
+
+  .servicetitle{
+    font-family: 'Sora', sans-serif;
+    font-weight: 500;
+  }
+
+  .serviceparagraph{
+    font-family: 'Sora', sans-serif;
+    font-size: 15px;
+    color: #666;
+  }
+
+  .readmoreservice{
+    font-family: 'Sora', sans-serif;
+    font-size: 12px;
+  }
+
+  .servicescontainer>div>div>div:nth-child(1){
+    position: relative;
+    width: 100%;
+  }
+
+  .serviceimg{
+    width: 40px;
+  }
+
+  .servicescontainer>div:hover {
+    transform: translateY(-10px);
+  }

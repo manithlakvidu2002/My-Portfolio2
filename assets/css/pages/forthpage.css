@@ -1,0 +1,250 @@
+.forthpage{
+    position: relative;
+    width: 100vw;
+    height: 200vh;
+}
+
+.experiencepagetitle{
+    width: fit-content;
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    right: 0%;
+    margin: auto;
+    text-transform: uppercase;
+}
+
+.experiencepagetitle>h1{
+    line-height: 0%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 51px;
+  }
+  
+  .experiencepagetitle>h1:nth-child(1){
+    letter-spacing: 10px;
+    font-weight: 800;
+    font-size: 110px;
+    color: rgba(30, 37, 48, 0.07);
+  }
+  
+  .experiencepagetitle>h1:nth-child(2){
+    font-weight: 900 !important;
+    font-size: 56px;
+    color: #666 !important;
+    position: absolute;
+    left: 20%;
+    right: 5%;
+    top: 5%;
+    margin: auto;
+  }
+  
+  .experiencepagetitle>h1:nth-child(2)>span{
+    color: #72b626;
+  }
+
+  .educationdetailcontainer{
+    position: relative;
+    background-color: white;
+    width: 80%;
+    height: 80vh;
+    left: 0%;
+    right: 0%;
+    margin: auto;
+    top: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .educationdetailcontainer>div{
+    position: relative;
+    width: 48%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+  }
+
+  .educationdetailleftside,.educationdetailrightside{
+    position: relative;
+    width: 100%;
+    height: calc(100%/4);
+  }
+
+  .educationdetailsleftsideinnercontainer{
+    position: absolute;
+    height: 100%;
+    width: 90%;
+    right: 0%;
+    background-color: white;
+    border-left: 1px solid #66666676;
+  }
+
+  .educationdetailsrightsideinnercontainer{
+    position: absolute;
+    height: 100%;
+    width: 90%;
+    right: 0%;
+    background-color: white;
+    border-left: 1px solid #66666676;
+  }
+  
+  .educationdetailsimage{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #72b626;
+    border-radius: 100%;
+    left: 7%;
+    z-index: 10;
+  }
+
+  .educationdetailsimage>img,.educationdetailsimage>i{
+    position: absolute;
+    width: 25px;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    margin: auto;
+    color: white;
+  }
+
+  .educationdetailsimage>i{
+    position: absolute;
+    left: 15%;
+    top: 25%;
+  }
+
+  .educationyear{
+    width: 110px;
+    height: 30px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    font-family: 'Sora', sans-serif;
+    line-height: 0%;
+    font-weight: 600;
+    color: #666;
+    background-color: #e9e7e7;
+  }
+
+  .educationdetails{
+    position: relative;
+    width: 90%;
+    height: 60%;
+    top: 20%;
+    left: 10%;
+    display: flex;
+    align-content: space-between;
+  }
+
+  .educationdetailtitle{
+    display: flex;
+    height: fit-content;
+  }
+
+  .educationdetailtitle>h1{
+    font-size: 18px;
+    font-family: 'Sora', sans-serif;
+    font-weight: 800;
+    line-height: 0%;
+    text-transform: uppercase;
+    color: #636262;
+  }
+
+  .educationdetailtitle>h1:nth-child(2){
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #666666ba;
+  }
+
+  .educationdetailtitle>h1:nth-child(3){
+    font-size: 15px;
+    position: relative;
+    line-height: 2px;
+    font-weight: 700;
+    color: #666666ba;
+  }
+
+  .educationdetaispharagraph{
+    position: absolute;
+    top: 20%;
+    height: 80%;
+  }
+
+  .educationdetaispharagraph>h1{
+    font-family: 'Sora', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #666666;
+  }
+
+  .learntoolcontainer{
+    position: relative;
+    width: 80%;
+    height: 50vh;
+    top: 27%;
+    left: 0%;
+    right: 0%;
+    margin: auto;
+  }
+
+  .learntoolinnercontainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 70%;
+    position: relative;
+    left: 0%;
+    right: 0%;
+    margin: auto;
+    top: 10%;
+    justify-content: space-between;
+  }
+
+  .learntoolinnercontainer>div{
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .learntoolinnercontainer>div>div{
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    rotate: 45deg;
+    border-radius: 6px;
+    border: 1px solid #6666665f;
+    transition: transform 0.3s ease;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+  }
+
+  .learntoolinnercontainer>div>div>img{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    margin: auto;
+    top: 0%;
+    bottom: 0%;
+    width: 40px;
+    rotate: -45deg;
+  }
+
+  .mongodb>img{
+    position: absolute;
+    rotate: -90deg !important;
+  }
+
+  .learntoolinnercontainer>div>div:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }

@@ -1,0 +1,303 @@
+.sixpage{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: rsed;
+}
+
+.contactpagetitle{
+    width: fit-content;
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    right: 0%;
+    margin: auto;
+    text-transform: uppercase;
+}
+
+.contactpagetitle>h1{
+    line-height: 0%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 51px;
+  }
+  
+  .contactpagetitle>h1:nth-child(1){
+    letter-spacing: 10px;
+    font-weight: 800;
+    font-size: 110px;
+    color: rgba(30, 37, 48, 0.07);
+  }
+  
+  .contactpagetitle>h1:nth-child(2){
+    font-weight: 900 !important;
+    font-size: 56px;
+    color: #666 !important;
+    position: absolute;
+    left: 20%;
+    right: 5%;
+    top: 5%;
+    margin: auto;
+  }
+  
+  .contactpagetitle>h1:nth-child(2)>span{
+    color: #72b626;
+  }
+
+  .contactdetailscontainer{
+    position: relative;
+    width: 80%;
+    height: 50%;
+    left: 0%;
+    right: 0%;
+    margin: auto;
+    top: 25%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .cont_deta_left_con{
+    position: relative;
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+  }
+
+  .cont_deta_right_con{
+    position: relative;
+    width: 65%;
+    height: 100%;
+  }
+
+  .cont_deta_left_con>div{
+    background-color: white;
+    position: relative;
+    width: 100%;
+    height: calc(70%/5);
+  }
+
+  .cont_deta_left_con>div:nth-child(2){
+    position: relative;
+    width: 95%;
+    height: fit-content;
+  }
+
+  .contactleftsidetitle{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700 !important;
+    font-size: 26px;
+    color: #5d5d5d !important;
+  }
+
+  .contactleftsidedetail{
+    font-family: 'Sora', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #666;
+  }
+
+  .mailmecontainer,.callmecontainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .mailmecontainer>div,.callmecontainer>div{
+    margin-left: 15px;
+    height: fit-content;
+  }
+
+  .mailmecontainer>div>h4,.callmecontainer>div>h4{
+    font-family: 'Sora', sans-serif;
+    font-size: 15px;
+    color: #666666d0;
+  }
+
+  .mailmecontainer>div>h4:nth-child(2),.callmecontainer>div>h4:nth-child(2){
+    font-size: 14px;
+    font-weight: 600;
+    color: #4e4d4d;
+  }
+
+  .mailmecontainer>i,.callmecontainer>i{
+    position: relative;
+    height: fit-content;
+    font-size: 33px;
+    color: #72b626;
+  }
+
+  .contactbuttoncontainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: end;
+  }
+
+  .contactbuttoncontainer>button{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 0px;
+    background-color: #eee;
+    transition: all;
+    transition-duration: 1s;
+    margin-right: 15px;
+  }
+
+  .contactbuttoncontainer>button:hover{
+    background-color: #72b626;
+    transition: all 1s;
+  }
+
+  .contactbuttoncontainer>button>a>i{
+    color: #666;
+  }
+
+  .inputfieldcontainer{
+    position: relative;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 13%;
+  }
+
+  .inputfieldcontainer>input{
+    position: relative;
+    width: calc(90%/3);
+    border-radius: 40px;
+    border: 1px solid #666666a2;
+    padding: 12px 30px;
+    outline: none;
+    font-family: 'Sora', sans-serif;
+    transition: all;
+    transition-duration: 1s;
+  }
+
+  .inputfieldcontainer>input:focus{
+    border: 1px solid #72b626 !important;
+  }
+
+  .inputfieldcontainer > input:focus::placeholder {
+    color: transparent;
+    transition: all 1s;
+  }
+
+  .textarecontainer{
+    position: relative;
+    width: 90%;
+    height: 50%;
+    margin-top: 40px;
+  }
+
+  .textarecontainer>textarea{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    border: 1px solid #666666a2;
+    padding: 12px 30px;
+    outline: none;
+    font-family: 'Sora', sans-serif;
+    transition: all;
+    transition-duration: 1s;
+  }
+
+  .textarecontainer>textarea:focus{
+    border: 1px solid #72b626;
+  }
+
+  .textarecontainer > textarea:focus::placeholder{
+    color: transparent;
+    transition: all 1s;
+  }
+
+  .sendmessage{
+    position: relative;
+    top: 12%;
+  }
+
+  /*-------------------Send Message Button-------------------*/
+  
+  .sendmessage {
+    width: 200px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .sendmessage > .cta {
+    position: relative;
+    margin: auto;
+    padding: 19px 22px;
+    transition: all 0.2s ease;
+    height: fit-content;
+    border: 1px solid #72b626; /* Black border */
+    border-radius: 28px; /* Border radius */
+    font-family: "Poppins", sans-serif;
+    color: #666;
+    text-decoration: none;
+    display: flex;
+    align-items: center; /* Align items to center */
+    justify-content: space-between; /* Distribute space between items */
+  }
+  
+  .sendmessage > .cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0; /* Position on the right */
+    display: block;
+    border-radius: 28px;
+    background: #72b626; /* Primary color */
+    width: 56px;
+    height: 56px;
+    transition: all 0.3s ease;
+  }
+  
+  .sendmessage > .cta span {
+    position: relative;
+    font-size: 15px;
+    line-height: 1.2;
+    font-weight: 600;
+    text-transform: uppercase;
+    vertical-align: middle;
+  }
+  
+  .sendmessage > .cta i {
+    position: relative;
+    right: 2%;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #111;
+    stroke-width: 2;
+    transition: all 0.3s ease;
+    display: flex;
+    color: white;
+  }
+  
+  .sendmessage > .cta:hover:before {
+    width: 100%;
+    right: 0; /* Expand from right to left */
+    background: #72b626; /* Primary color */
+  }
+  
+  .sendmessage > .cta:hover span {
+    color: #fff; /* Change font color on hover */
+  }
+  
+  .sendmessage > .cta:hover i {
+    transform: translateX(0);
+  }
+  
+  .sendmessage > .cta:active {
+    transform: scale(0.96);
+    color: white;
+  }
+  
+  /*---------------------------------*/

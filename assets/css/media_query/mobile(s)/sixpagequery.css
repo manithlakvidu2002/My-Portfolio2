@@ -1,0 +1,35 @@
+@media all and (min-width: 1px) and (max-width: 426px){
+    .hamburgerbtn{
+        display: block !important;
+    }
+    
+    .contactpagetitle>h1:nth-child(1) {
+        font-size: 35px;
+    }
+
+    .contactpagetitle>h1:nth-child(2){
+        font-size: 21px;
+    }
+
+    .cont_deta_left_con {
+        width: 100%;
+    }
+
+    .cont_deta_right_con {
+        width: 100%;
+    }
+
+    .inputfieldcontainer>input {
+        width: calc(100% / 1);
+        margin-top: 1rem;
+    }
+
+    .inputfieldcontainer {
+        width: 100%;
+        height: auto;
+    }
+
+    .textarecontainer {
+        width: 100%;
+    }
+}

@@ -1,0 +1,53 @@
+.homepageanimateddiv{
+    position: absolute;
+    height: 0%;
+    width: 100%;
+    background-color: white;
+    z-index: 100;
+    transition: height 5s;
+}
+
+.aboutpageanimateddiv{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    z-index: 100;
+    transition: height 0.7s;
+}
+
+.servicepageanimateddiv{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    background-color: white;
+    transition: height 0.7s;
+}
+
+.experincepageanimateddiv{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    z-index: 100;
+    transition: height 0.7s;
+}
+
+.workspageanimateddiv{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    z-index: 100;
+    transition: height 0.7s;
+}
+
+.contactpageanimateddiv {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    z-index: 100;
+    transition: height 0.7s;
+}

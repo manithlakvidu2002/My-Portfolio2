@@ -1,0 +1,59 @@
+@media all and (min-width: 1px) and (max-width: 426px){
+    .hamburgerbtn{
+        display: block !important;
+    }
+    
+    .workspagetitle>h1:nth-child(1) {
+        font-size: 35px;
+    }
+
+    .workspagetitle>h1:nth-child(2){
+        font-size: 29px;
+    }
+
+    .projectsdetailscontainer {
+        position: relative;
+        width: 80%;
+        height: 84%;
+        left: 0%;
+        right: 0%;
+        top: 15%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+    }
+
+    .projectsdetailscontainer>div {
+        height: 49%;
+        align-content: space-between;
+    }
+
+    .projectsdetailscontainer>div>div {
+        width: 100%;
+        height: calc(90% / 3);
+    }
+
+    .clientreviewtitlescontainer {
+        width: 85%;
+    }
+
+    .clientreviewtitlescontainer>h1 {
+        font-size: 25px;
+    }
+
+    .clientreviewtitlescontainer>h3 {
+        font-size: 15px;
+    }
+
+    .clientreviewcontainer>div {
+        width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+
+    .clientdetails {
+        width: 80%;
+        padding-bottom: 6rem;
+    }
+}

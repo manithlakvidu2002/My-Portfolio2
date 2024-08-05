@@ -1,0 +1,27 @@
+@media all and (min-width: 769px) and (max-width: 1025px){
+    .clientdetails>div:nth-child(2)>h1 {
+        font-size: 10px;
+    }
+
+    .reviewcontainer>p {
+        font-size: 11px;
+    }
+
+    .projectbtnhoverdetails>h1:nth-child(2) {
+        font-size: 13px;
+    }
+
+    .projectbtnhoverdetails>h1:nth-child(3) {
+        font-size: 11px;
+    }
+
+    .clientdetails {
+        width: 80%;
+        padding-bottom: 5rem;
+        height: auto;
+    }
+
+    .clientreviewcontainer>div {
+        height: auto;
+    }
+}

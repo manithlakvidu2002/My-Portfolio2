@@ -1,0 +1,28 @@
+@media all and (min-width: 769px) and (max-width: 1025px){
+    .manithphoto>img {
+        width: 80%;
+        height: auto;
+    }
+
+    .details {
+        width: 50%;
+    }
+
+    .details>div:nth-child(1) {
+        justify-content: start;
+        width: fit-content;
+        height: 130px;
+    }
+
+    .details>div:nth-child(1)>h1 {
+        font-size: 40px;
+    }
+
+    .details>div:nth-child(2)>p {
+        font-size: 13px;
+    }
+
+    .details>div:nth-child(1)>h1:nth-child(2) {
+        width: fit-content;
+    }
+}
